@@ -2,17 +2,16 @@ header {
     background-image: url(../assets/img/design1_image2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 45%;
+    background-position-y: 90%;
     opacity: 0.9;
 }
 
 body {
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../assets/img/design1_image1.jpg);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
     background-size: cover;
     background-position: center;
     background-color: #bff6bf;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -93,9 +92,12 @@ a.opcion
 
 .dates {
     display: contents;
-    margin-left: 100px;
     font-size: 16px;
     color:#faf7f7;
+}
+
+.dates dl > dd {
+    margin-left: 0px;
 }
 
 .text {
@@ -107,6 +109,7 @@ a.opcion
 
 .text dl {
     padding-left: 15px;
+    margin-bottom: 2px;
 }
 
 .contact {
@@ -116,12 +119,13 @@ a.opcion
 }
 
 .margin4 {
-    margin-bottom: 7%;
+    margin-bottom: 5%;
+    margin-top: 4%;
 }
 
 main > div > div > img {
     height: 150px;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
 }
 
 .caja {
@@ -167,6 +171,7 @@ nav > ul {
 dt {
     font-weight: bold;
     font-size: 25px;
+    text-align: center;
 }
 
 .margin {
@@ -184,11 +189,11 @@ dt {
 }
 
 .marg {
-    margin-top: 7%;
+    margin-top: 4%;
 }
 
 .margin2 {
-    margin: 3% 50px 6% 0px;
+    margin: 3% 50px 3% 0px;
     text-indent: 6%;
 }
 
@@ -200,13 +205,14 @@ dt {
     list-style-type: none;
     text-align: center;
     padding-left: 0px;
+    margin-top: 4%;
 }
 
 .div {
     color: #faf7f7;
-    font-family: Arial, Helvetica, sans-serif;
     width: 700px;
     list-style-position: inside;
+    font-family: 'Roboto', sans-serif;
 }
 
 li > p {
@@ -233,9 +239,10 @@ ol > li {
 
 .gamediv {
     color:#faf7f7;
-    font-family: 'Lato', sans-serif;
     width: 700px;
     font-size: 20px;
+    text-align: -webkit-center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .pgame {
@@ -253,10 +260,29 @@ ol > li {
 .table th {
     padding-left: 15px;
     padding-bottom: 10px;
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
 }
 
 .table td {
     padding-left: 45px;
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    border-bottom: 1px solid #cecfd5;
+    border-right: 1px solid #cecfd5;
+}
+
+.table thead {
+    background: #31a544;
+    color: #faf7f7;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #47684d;
+}
+
+.table td:first-child {
+    border-left: 1px solid #cecfd5;
 }
 
 .locth {
@@ -285,8 +311,8 @@ ol > li {
     color: #faf7f7;
 }
 
-.paddli {
-    padding-top: 6%;
+.phoneli {
+    text-align:start;
 }
 
 footer {
@@ -299,4 +325,5 @@ footer {
     text-align: center;
     border: 2px solid #777777;
     opacity: 0.8;
+    margin-bottom: 15px;
 }
