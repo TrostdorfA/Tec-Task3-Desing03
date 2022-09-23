@@ -1,0 +1,302 @@
+header {
+    background-image: url(../assets/img/design1_image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 45%;
+    opacity: 0.9;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../assets/img/design1_image1.jpg);
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    background-position: center;
+    background-color: #bff6bf;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body > div {
+    border: solid 2px #777777;
+    background-color: #abe4b5;
+    opacity: 0.8;
+    text-align: end;
+}
+
+body > div > p {
+    font-size: 50px;
+    display: initial;
+    font-weight: bold;
+    margin-right: 8%;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    background-color: #31a544;
+    padding: 0px 20px 0px 20px;;
+}
+
+nav > ul > li:hover {
+    font-weight: bold;
+    background-color: bisque;
+    border-radius: 16px;
+    transform: scale(1.25);
+    transition: ease 250ms;
+}
+
+#button {
+    background-color:rgb(65, 79, 65);
+}
+
+li > a {
+    text-decoration: none;
+    color: #faf7f7;
+    font-size: 18px;
+}
+
+.contact p > a {
+    color: #abe4b5;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    height: 35vh;
+    display: flex;
+ 
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+li.opcion
+{
+   float: left;
+   margin: 0px 20px;
+   border: 2px solid #777777;
+   box-shadow: 6px 6px 1px -1px rgba(0,0,0,0.48);
+}
+
+a.opcion
+{
+    display: block;
+    padding: 5px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dates {
+    display: contents;
+    margin-left: 100px;
+    font-size: 16px;
+    color:#faf7f7;
+}
+
+.text {
+    display: flex;
+    width: 60%;
+    font-size: 16px;
+    color: #faf7f7;
+}
+
+.text dl {
+    padding-left: 15px;
+}
+
+.contact {
+    display: contents;
+    font-size: 20px;
+    color:#faf7f7;
+}
+
+.margin4 {
+    margin-bottom: 7%;
+}
+
+main > div > div > img {
+    height: 150px;
+    margin-bottom: -10px;
+}
+
+.caja {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    background: #abe4b5;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid #777777;
+    opacity: 0.8;
+}
+
+.container-images {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+    z-index: -1;
+}
+
+.container-images img {
+    max-width: 250px;
+    height: 100%;
+    opacity: 0.8;
+}
+
+nav {
+    position: absolute;
+    top: -70px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.margin {
+    margin: 0px;
+    text-indent: 20px;
+    font-size: 17px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.marg {
+    margin-top: 7%;
+}
+
+.margin2 {
+    margin: 3% 50px 6% 0px;
+    text-indent: 6%;
+}
+
+.margin3 {
+    margin: 0px 50px 0px -6%;
+}
+
+.rules-title {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.div {
+    color: #faf7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    list-style-position: inside;
+}
+
+li > p {
+    font-weight: normal;
+    display: inline;
+}
+
+ol > li {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ol li {
+    font-weight: normal;
+    margin: 0px 40px 0px -40px;
+    list-style-type:lower-latin;
+}
+
+.ul li {
+    margin: -15px 40px 0px 5px;
+    text-indent: 2%;
+    list-style-type: circle;
+}
+
+.gamediv {
+    color:#faf7f7;
+    font-family: 'Lato', sans-serif;
+    width: 700px;
+    font-size: 20px;
+}
+
+.pgame {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.underline {
+    text-decoration: underline 2px rgb(255, 255, 255);
+    margin-bottom: 6%;
+}
+
+.table th {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.table td {
+    padding-left: 45px;
+}
+
+.locth {
+    padding-right: 40px;
+}
+
+.ulgames {
+    margin-top: 10%;
+    padding: initial;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.ulgames li {
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.game_email {
+    text-align: end;
+    margin-top: -40px;
+}
+
+.game_email p > a {
+    text-decoration: none;
+    color: #faf7f7;
+}
+
+.paddli {
+    padding-top: 6%;
+}
+
+footer {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    background: #abe4b5;
+    overflow: hidden;
+    padding: 22px;
+    text-align: center;
+    border: 2px solid #777777;
+    opacity: 0.8;
+}
