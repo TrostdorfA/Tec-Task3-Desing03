@@ -326,7 +326,7 @@ footer {
     margin-bottom: 15px;
 }
 
-.footer-section {
+.footer-div {
     display: flex;
     justify-content: space-around;
 }
