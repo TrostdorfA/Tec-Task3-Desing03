@@ -4,7 +4,7 @@ In this case we have to create two new pages for the project, after learning how
 
 For this was used <abbr title="Hyper Text Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> 
 
-**Mockup3**
+### Mockup3:
 
 This project was performed by integrating the client design information with my own style.
 
